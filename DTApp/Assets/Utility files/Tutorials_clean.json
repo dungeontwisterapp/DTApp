@@ -1,0 +1,117 @@
+﻿{
+"tuto01" : {
+	"Instructions" : {
+		"english" : [
+			{
+				"firstSentence" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				"secondSentence" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+			}
+		],
+		"french" : [
+			{
+				"firstSentence" : "Bienvenue dans le monde de Dungeon Twister !
+
+Dungeon Twister est un jeu de stratégie en tour par tour...",
+				"secondSentence" : "A chaque tour, le joueur actif dispose d'un certain nombre de Points d'Action.
+
+Le premier joueur à atteindre le seuil de Points de Victoire fixé pour la partie la remporte."
+			},
+			{
+				"firstSentence" : "Une action doit toujours être terminée pour pouvoir en commencer une autre.",
+				"secondSentence" : "La première caractéristique importante de vos personnages est leur capacité de mouvement, inscrite en blanc sur leur gauche."
+			}
+		]
+	},
+	"ContextualInfo" : {
+		"To" : "Do"
+	}
+},
+"tuto02" : {
+	"Instructions" : {
+		"english" : [
+		],
+		"french" : [
+		]
+	},
+	"ContextualInfo" : {
+		"To" : "Do"
+	}
+},
+"tuto03" : {
+	"Instructions" : {
+		"english" : [
+		],
+		"french" : [
+		]
+	},
+	"ContextualInfo" : {
+		"To" : "Do"
+	}
+},
+"tuto04" : {
+	"Instructions" : {
+		"english" : [
+		],
+		"french" : [
+		]
+	},
+	"ContextualInfo" : {
+		"To" : "Do"
+	}
+},
+"tuto05" : {
+	"Instructions" : {
+		"english" : [
+		],
+		"french" : [
+		]
+	},
+	"ContextualInfo" : {
+		"To" : "Do"
+	}
+},
+"tuto06" : {
+	"Instructions" : {
+		"english" : [
+		],
+		"french" : [
+		]
+	},
+	"ContextualInfo" : {
+		"To" : "Do"
+	}
+},
+"tuto07" : {
+	"Instructions" : {
+		"english" : [
+		],
+		"french" : [
+		]
+	},
+	"ContextualInfo" : {
+		"To" : "Do"
+	}
+},
+"tuto08" : {
+	"Instructions" : {
+		"english" : [
+		],
+		"french" : [
+		]
+	},
+	"ContextualInfo" : {
+		"To" : "Do"
+	}
+},
+"tuto09" : {
+	"Instructions" : {
+		"english" : [
+		],
+		"french" : [
+		]
+	},
+	"ContextualInfo" : {
+		"To" : "Do"
+	}
+}
+}

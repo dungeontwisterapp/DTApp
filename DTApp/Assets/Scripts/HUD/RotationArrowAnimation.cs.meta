@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 420ff75403ea3984fa1ea9443b7a090d
+timeCreated: 1468961522
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - rotationArrowPrefab: {fileID: 161022, guid: 675184b512624364c99a2a14cc5ef5ab,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

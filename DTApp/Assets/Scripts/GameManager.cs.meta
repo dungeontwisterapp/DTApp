@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 82f33410e8475794a958d8fcc56ad350
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - glowPrefab: {instanceID: 0}
+  - playerPrefab: {instanceID: 0}
+  - joueurActif: {instanceID: 0}
+  - boutonBriserHerse: {fileID: 2800000, guid: 7a6606553232e9142982dd46f3f3175c, type: 3}
+  - boutonOuvrirHerse: {fileID: 2800000, guid: 0a7eb6dcd64bdfb41b3ad1d623719a73, type: 3}
+  - boutonPasseMuraille: {fileID: 2800000, guid: a36e347e8ba4e3b46ac52caf49e51a30,
+      type: 3}
+  - boutonValider: {fileID: 2800000, guid: a36e347e8ba4e3b46ac52caf49e51a30, type: 3}
+  - boutonSaut: {fileID: 2800000, guid: a36e347e8ba4e3b46ac52caf49e51a30, type: 3}
+  - boutonDeposer: {fileID: 2800000, guid: a36e347e8ba4e3b46ac52caf49e51a30, type: 3}
+  - boutonRecupererItem: {fileID: 2800000, guid: a36e347e8ba4e3b46ac52caf49e51a30,
+      type: 3}
+  - boutonCombatCAC: {fileID: 2800000, guid: a36e347e8ba4e3b46ac52caf49e51a30, type: 3}
+  - herseAdjacente: {instanceID: 0}
+  executionOrder: 100
+  icon: {instanceID: 0}
+  userData: 

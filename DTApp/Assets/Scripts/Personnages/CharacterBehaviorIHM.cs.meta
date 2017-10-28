@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: f5838fe677845b04ba30194a4dbdb3f6
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - actionDoableHighlight: {instanceID: 0}
+  - couleurDos: {instanceID: 0}
+  - previousCase: {instanceID: 0}
+  - previousPersonnageAssocie: {instanceID: 0}
+  - tokenGetSound: {instanceID: 0}
+  - tokenDropSound: {instanceID: 0}
+  - fullCharacterSprite: {instanceID: 0}
+  - deathSound: {instanceID: 0}
+  - attackSound: {instanceID: 0}
+  - abilitySound: {instanceID: 0}
+  - testFX: {fileID: 100002, guid: 200e650fba6c8492b87e96e4bc273510, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

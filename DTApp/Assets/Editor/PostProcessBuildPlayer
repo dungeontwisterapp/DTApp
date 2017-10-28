@@ -1,0 +1,29 @@
+#!/usr/bin/perl
+
+# Post Process Build Player -- Master 
+
+# Searches for other PPBP scripts and executes them. Make sure the other script
+# have a name suffix like "_EnhancementPack" or whatever.
+#
+# Based on code by Rob Terrell, [email]rob@stinkbot.com[/email]; modified by Joe Cooper [email]joecooper@noblemuffins.com[/email]
+
+# Dont run on any builds that are not iPhone builds
+if( $ARGV[1] ne "iPhone" )
+{
+	exit;
+}
+
+use File::Glob ':glob';
+@files = bsd_glob('Assets/Editor/postprocessbuildplayer_*', GLOB_NOCASE);
+foreach $file (@files) {
+	if($file =~ m/\.meta$/)
+	{
+		# Skip metafile
+	}
+	else
+	{
+		print "PostProcessBuildPlayer Master: calling " . $file . "\n";
+		system("chmod", "755", "./$file");
+		system("./$file", $ARGV[0], $ARGV[1], $ARGV[2], $ARGV[3], $ARGV[4], $ARGV[5], $ARGV[6]);
+	}
+}

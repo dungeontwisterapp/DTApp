@@ -1,0 +1,191 @@
+﻿{
+"tuto01" : {
+	"Instructions" : {
+		"english" : [
+			{
+				"firstSentence" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				"secondSentence" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+			}
+		],
+		"french" : [
+			{
+				"firstSentence" : "Bienvenue dans le monde de Dungeon Twister !
+
+Dungeon Twister est un jeu de stratégie en tour par tour...",
+				"secondSentence" : "A chaque tour, le joueur actif dispose d'un certain nombre de Points d'Action.
+
+Le premier joueur à atteindre le seuil de Points de Victoire fixé pour la partie la remporte."
+			},
+			{
+				"firstSentence" : "Une action doit toujours être terminée pour pouvoir en commencer une autre.",
+				"secondSentence" : "La première caractéristique importante de vos personnages est leur capacité de mouvement, inscrite en blanc sur leur gauche."
+			}
+		]
+	},
+	"MissionTitle" : {
+		"english" : "01. MOVEMENT",
+		"french" : "01. DEPLACEMENT"
+	},
+	"ContextualInfo" : {
+		"english" : [
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua2."
+		],
+		"french" : [
+			"Sélectionnez le personnage",
+			"Cliquez ou faites glisser pour bouger",
+			"Terminez en sélectionnant le personnage",
+			"Chaque action de mouvement coûte 1 Point d'Action",
+			"Sortez ici pour gagner"
+		]
+	}
+},
+"tuto02" : {
+	"Instructions" : {
+		"english" : [
+		],
+		"french" : [
+		]
+	},
+	"MissionTitle" : {
+		"english" : "02. OBJECTS",
+		"french" : "02. OBJETS"
+	},
+	"ContextualInfo" : {
+		"english" : [
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua2."
+		],
+		"french" : [
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua2."
+		]
+	}
+},
+"tuto03" : {
+	"Instructions" : {
+		"english" : [
+		],
+		"french" : [
+		]
+	},
+	"MissionTitle" : {
+		"english" : "03. ABILITIES",
+		"french" : "03. CAPACITES"
+	},
+	"ContextualInfo" : {
+		"english" : [
+		],
+		"french" : [
+		]
+	}
+},
+"tuto04" : {
+	"Instructions" : {
+		"english" : [
+		],
+		"french" : [
+		]
+	},
+	"MissionTitle" : {
+		"english" : "04. ROTATION",
+		"french" : "04. ROTATION"
+	},
+	"ContextualInfo" : {
+		"english" : [
+		],
+		"french" : [
+		]
+	}
+},
+"tuto05" : {
+	"Instructions" : {
+		"english" : [
+		],
+		"french" : [
+		]
+	},
+	"MissionTitle" : {
+		"english" : "05. CONSUMABLES",
+		"french" : "05. CONSOMMABLES"
+	},
+	"ContextualInfo" : {
+		"english" : [
+		],
+		"french" : [
+		]
+	}
+},
+"tuto06" : {
+	"Instructions" : {
+		"english" : [
+		],
+		"french" : [
+		]
+	},
+	"MissionTitle" : {
+		"english" : "06. COMBAT",
+		"french" : "06. COMBAT"
+	},
+	"ContextualInfo" : {
+		"english" : [
+		],
+		"french" : [
+		]
+	}
+},
+"tuto07" : {
+	"Instructions" : {
+		"english" : [
+		],
+		"french" : [
+		]
+	},
+	"MissionTitle" : {
+		"english" : "07. GROUP FIGHTS",
+		"french" : "07. COMBATS GROUPES"
+	},
+	"ContextualInfo" : {
+		"english" : [
+		],
+		"french" : [
+		]
+	}
+},
+"tuto08" : {
+	"Instructions" : {
+		"english" : [
+		],
+		"french" : [
+		]
+	},
+	"MissionTitle" : {
+		"english" : "08. HEAL",
+		"french" : "08. SOIN"
+	},
+	"ContextualInfo" : {
+		"english" : [
+		],
+		"french" : [
+		]
+	}
+},
+"tuto09" : {
+	"Instructions" : {
+		"english" : [
+		],
+		"french" : [
+		]
+	},
+	"MissionTitle" : {
+		"english" : "09. OPENING A ROOM",
+		"french" : "09. OUVRIR UNE SALLE"
+	},
+	"ContextualInfo" : {
+		"english" : [
+		],
+		"french" : [
+		]
+	}
+}
+}

@@ -1,0 +1,554 @@
+﻿{
+"BaseGame" : {
+	"Cleric" : {
+			"MOVE" : "4",
+			"COMBAT" : "2",
+			"Name" : {
+				"french" : "Clerc",
+				"english" : "Cleric",
+				"german" : "Cleric"
+			},
+			"Abilities" : [
+				{"Ability" : {
+					"french" : {
+						"icon" : "picto-soin",
+						"text" : "Le Clerc peut soigner un personnage blessé (ami ou ennemi) pour 1PA.\n\nUn personnage soigné par le Clerc ne peut pas agir dans le même tour, ni participer à un combat groupé."
+					},
+					"english" : {
+						"icon" : "picto-soin",
+						"text" : "To do"
+					},
+					"german" : {
+						"icon" : "picto-soin",
+						"text" : "To do"
+					}
+				}}
+			]
+		},
+	"Goblin" : {
+			"MOVE" : "4",
+			"COMBAT" : "1",
+			"Name" : {
+				"french" : "Gobelin",
+				"english" : "Goblin",
+				"german" : "Goblin"
+			},
+			"Abilities" : [
+				{"Ability" : {
+					"french" : {
+						"icon" : "none",
+						"text" : "Le Gobelin rapporte 2 Points de Victoire lorsqu'il sort du donjon non blessé."
+					},
+					"english" : {
+						"icon" : "none",
+						"text" : "To do"
+					},
+					"german" : {
+						"icon" : "none",
+						"text" : "To do"
+					}
+				}}
+			]
+		},
+	"Mechanork" : {
+			"MOVE" : "3",
+			"COMBAT" : "2",
+			"Name" : {
+				"french" : "Mechanork",
+				"english" : "Mechanork",
+				"german" : "Mechanork"
+			},
+			"Abilities" : [
+				{"Ability" : {
+					"french" : {
+						"icon" : "picto-rotation",
+						"text" : "Le Méchanork peut ignorer le sens des flèches lorsqu'il utilise un mécanisme de rotation."
+					},
+					"english" : {
+						"icon" : "picto-rotation",
+						"text" : "To do"
+					},
+					"german" : {
+						"icon" : "picto-rotation",
+						"text" : "To do"
+					}
+				}}
+			]
+		},
+	"Thief" : {
+			"MOVE" : "5",
+			"COMBAT" : "2",
+			"Name" : {
+				"french" : "Voleuse",
+				"english" : "Thief",
+				"german" : "Thief"
+			},
+			"Abilities" : [
+				{"Ability" : {
+					"french" : {
+						"icon" : "picto-fosse",
+						"text" : "La Voleuse peut passer ou s’arrêter sur une fosse, permettant à ses alliés de passer par cette fosse.\nSi elle est blessée dans cette situation et n'a pas de Corde, elle tombe dans la fosse et meurt."
+					},
+					"english" : {
+						"icon" : "picto-fosse",
+						"text" : "To do"
+					},
+					"german" : {
+						"icon" : "picto-fosse",
+						"text" : "To do"
+					}
+				}},
+				{"Ability" : {
+					"french" : {
+						"icon" : "picto-ouvrirHerse",
+						"text" : "La Voleuse peut ouvrir ou fermer une herse adjacente pour 1 Point d'Action, pourvue qu'elle n'ait pas été brisée."
+					},
+					"english" : {
+						"icon" : "picto-ouvrirHerse",
+						"text" : "To do"
+					},
+					"german" : {
+						"icon" : "picto-ouvrirHerse",
+						"text" : "To do"
+					}
+				}}
+			]
+		},
+	"Troll" : {
+			"MOVE" : "1",
+			"COMBAT" : "4",
+			"Name" : {
+				"french" : "Troll",
+				"english" : "Troll",
+				"german" : "Troll"
+			},
+			"Abilities" : [
+				{"Ability" : {
+					"french" : {
+						"icon" : "picto-regeneration",
+						"text" : "Un Troll blessé peut se régénérer pour 1 Point d'Action. Il ne peut rien faire d'autre durant ce tour, et ne peut pas régénérer le tour où il a été blessé."
+					},
+					"english" : {
+						"icon" : "picto-regeneration",
+						"text" : "To do"
+					},
+					"german" : {
+						"icon" : "picto-regeneration",
+						"text" : "To do"
+					}
+				}}
+			]
+		},
+	"Wall-Walker" : {
+			"MOVE" : "4",
+			"COMBAT" : "1",
+			"Name" : {
+				"french" : "Passe-Muraille",
+				"english" : "Wall-Walker",
+				"german" : "Wall-Walker"
+			},
+			"Abilities" : [
+				{"Ability" : {
+					"french" : {
+						"icon" : "picto-traverserMur",
+						"text" : "La Passe-Muraille peut traverser un mur pour 1 Point d'Action."
+					},
+					"english" : {
+						"icon" : "picto-traverserMur",
+						"text" : "To do"
+					},
+					"german" : {
+						"icon" : "picto-traverserMur",
+						"text" : "To do"
+					}
+				}}
+			]
+		},
+	"Warrior" : {
+			"MOVE" : "3",
+			"COMBAT" : "3",
+			"Name" : {
+				"french" : "Guerrier",
+				"english" : "Warrior",
+				"german" : "Warrior"
+			},
+			"Abilities" : [
+				{"Ability" : {
+					"french" : {
+						"icon" : "picto-briserHerse",
+						"text" : "Un Guerrier peut briser une herse adjacente pour 1 Point d'Action."
+					},
+					"english" : {
+						"icon" : "picto-briserHerse",
+						"text" : "To do"
+					},
+					"german" : {
+						"icon" : "picto-briserHerse",
+						"text" : "To do"
+					}
+				}}
+			]
+		},
+	"Wizard" : {
+			"MOVE" : "4",
+			"COMBAT" : "1",
+			"Name" : {
+				"french" : "Magicien",
+				"english" : "Wizard",
+				"german" : "Wizard"
+			},
+			"Abilities" : [
+				{"Ability" : {
+					"french" : {
+						"icon" : "picto-volant",
+						"text" : "Le Magicien lévite, il peut survoler magiquement les fosses et les personnages ennemis."
+					},
+					"english" : {
+						"icon" : "picto-volant",
+						"text" : "To do"
+					},
+					"german" : {
+						"icon" : "picto-volant",
+						"text" : "To do"
+					}
+				}},
+				{"Ability" : {
+					"french" : {
+						"icon" : "picto-bouleDeFeu",
+						"text" : "Le Magicien est le seul personnage ayant le pouvoir d'utiliser le Bâton de Boule de Feu."
+					},
+					"english" : {
+						"icon" : "picto-bouleDeFeu",
+						"text" : "To do"
+					},
+					"german" : {
+						"icon" : "picto-bouleDeFeu",
+						"text" : "To do"
+					}
+				}}
+			]
+		},
+	"Armor" : {
+			"Name" : {
+				"french" : "Armure",
+				"english" : "Armor",
+				"german" : "Armor"
+			},
+			"Abilities" : [
+				{"Ability" : {
+					"french" : {
+						"icon" : "none",
+						"text" : "Donne 1 point de Combat supplémentaire quand le personnage qui le tient est attaqué."
+					},
+					"english" : {
+						"icon" : "none",
+						"text" : "To do"
+					},
+					"german" : {
+						"icon" : "none",
+						"text" : "To do"
+					}
+				}}
+			]
+		},
+	"FireballStaff" : {
+			"Name" : {
+				"french" : "Baton de boule de feu",
+				"english" : "Fireball Staff",
+				"german" : "Fireball Staff"
+			},
+			"Abilities" : [
+				{"Ability" : {
+					"french" : {
+						"icon" : "none",
+						"text" : "Uniquement utilisable par le Magicien. En dépensant un Point d'Action, le Magicien tue automatiquement un personnage ennemi qui se trouve dans la ligne de vue."
+					},
+					"english" : {
+						"icon" : "none",
+						"text" : "To do"
+					},
+					"german" : {
+						"icon" : "none",
+						"text" : "To do"
+					}
+				}}
+			]
+		},
+	"Rope" : {
+			"Name" : {
+				"french" : "Corde",
+				"english" : "Rope",
+				"german" : "Rope"
+			},
+			"Abilities" : [
+				{"Ability" : {
+					"french" : {
+						"icon" : "none",
+						"text" : "Permet de traverser et de s'arrêter sur les fosses. On peut la déposer sur une fosse pour y permettre le passage."
+					},
+					"english" : {
+						"icon" : "none",
+						"text" : "To do"
+					},
+					"german" : {
+						"icon" : "none",
+						"text" : "To do"
+					}
+				}}
+			]
+		},
+	"SpeedPotion" : {
+			"Name" : {
+				"french" : "Potion de Vitesse",
+				"english" : "SpeedPotion",
+				"german" : "SpeedPotion"
+			},
+			"Abilities" : [
+				{"Ability" : {
+					"french" : {
+						"icon" : "none",
+						"text" : "En dépendant un Point d'Action pour la boire, la potion donne 4 Points d'Action supplémentaires, uniquement utilisables par le personnage qui la consomme."
+					},
+					"english" : {
+						"icon" : "none",
+						"text" : "To do"
+					},
+					"german" : {
+						"icon" : "none",
+						"text" : "To do"
+					}
+				}}
+			]
+		},
+	"Sword" : {
+			"Name" : {
+				"french" : "Epee",
+				"english" : "Sword",
+				"german" : "Sword"
+			},
+			"Abilities" : [
+				{"Ability" : {
+					"french" : {
+						"icon" : "none",
+						"text" : "Donne 1 point de Combat supplémentaire quand le personnage qui le tient attaque."
+					},
+					"english" : {
+						"icon" : "none",
+						"text" : "To do"
+					},
+					"german" : {
+						"icon" : "none",
+						"text" : "To do"
+					}
+				}}
+			]
+		},
+	"Treasure" : {
+			"Name" : {
+				"french" : "Tresor",
+				"english" : "Treasure",
+				"german" : "Treasure"
+			},
+			"Abilities" : [
+				{"Ability" : {
+					"french" : {
+						"icon" : "none",
+						"text" : "Donne 1 Point de Victoire supplémentaire quand le personnage qui le tient sort du plateau."
+					},
+					"english" : {
+						"icon" : "none",
+						"text" : "To do"
+					},
+					"german" : {
+						"icon" : "none",
+						"text" : "To do"
+					}
+				}}
+			]
+		},
+	"Room1D" : {
+			"Name" : {
+				"french" : "Salle 1D",
+				"english" : "Room 1D",
+				"german" : "Room 1D"
+			},
+			"Abilities" : [
+				{"Ability" : {
+					"french" : {
+						"icon" : "none",
+						"text" : "A REMPLIR"
+					},
+					"english" : {
+						"icon" : "none",
+						"text" : "To do"
+					},
+					"german" : {
+						"icon" : "none",
+						"text" : "To do"
+					}
+				}}
+			]
+		},
+	"Room1G" : {
+			"Name" : {
+				"french" : "Salle 1G",
+				"english" : "Room 1G",
+				"german" : "Room 1G"
+			},
+			"Abilities" : [
+				{"Ability" : {
+					"french" : {
+						"icon" : "none",
+						"text" : "A REMPLIR"
+					},
+					"english" : {
+						"icon" : "none",
+						"text" : "To do"
+					},
+					"german" : {
+						"icon" : "none",
+						"text" : "To do"
+					}
+				}}
+			]
+		},
+	"Room2D" : {
+			"Name" : {
+				"french" : "Salle 2D",
+				"english" : "Room 2D",
+				"german" : "Room 2D"
+			},
+			"Abilities" : [
+				{"Ability" : {
+					"french" : {
+						"icon" : "none",
+						"text" : "A REMPLIR"
+					},
+					"english" : {
+						"icon" : "none",
+						"text" : "To do"
+					},
+					"german" : {
+						"icon" : "none",
+						"text" : "To do"
+					}
+				}}
+			]
+		},
+	"Room2G" : {
+			"Name" : {
+				"french" : "Salle 2G",
+				"english" : "Room 2G",
+				"german" : "Room 2G"
+			},
+			"Abilities" : [
+				{"Ability" : {
+					"french" : {
+						"icon" : "none",
+						"text" : "A REMPLIR"
+					},
+					"english" : {
+						"icon" : "none",
+						"text" : "To do"
+					},
+					"german" : {
+						"icon" : "none",
+						"text" : "To do"
+					}
+				}}
+			]
+		},
+	"Room3D" : {
+			"Name" : {
+				"french" : "Salle 3D",
+				"english" : "Room 3D",
+				"german" : "Room 3D"
+			},
+			"Abilities" : [
+				{"Ability" : {
+					"french" : {
+						"icon" : "none",
+						"text" : "A REMPLIR"
+					},
+					"english" : {
+						"icon" : "none",
+						"text" : "To do"
+					},
+					"german" : {
+						"icon" : "none",
+						"text" : "To do"
+					}
+				}}
+			]
+		},
+	"Room3G" : {
+			"Name" : {
+				"french" : "Salle 3G",
+				"english" : "Room 3G",
+				"german" : "Room 3G"
+			},
+			"Abilities" : [
+				{"Ability" : {
+					"french" : {
+						"icon" : "none",
+						"text" : "A REMPLIR"
+					},
+					"english" : {
+						"icon" : "none",
+						"text" : "To do"
+					},
+					"german" : {
+						"icon" : "none",
+						"text" : "To do"
+					}
+				}}
+			]
+		},
+	"Room4D" : {
+			"Name" : {
+				"french" : "Salle 4D",
+				"english" : "Room 4D",
+				"german" : "Room 4D"
+			},
+			"Abilities" : [
+				{"Ability" : {
+					"french" : {
+						"icon" : "none",
+						"text" : "A REMPLIR"
+					},
+					"english" : {
+						"icon" : "none",
+						"text" : "To do"
+					},
+					"german" : {
+						"icon" : "none",
+						"text" : "To do"
+					}
+				}}
+			]
+		},
+	"Room4G" : {
+			"Name" : {
+				"french" : "Salle 4G",
+				"english" : "Room 4G",
+				"german" : "Room 4G"
+			},
+			"Abilities" : [
+				{"Ability" : {
+					"french" : {
+						"icon" : "none",
+						"text" : "A REMPLIR"
+					},
+					"english" : {
+						"icon" : "none",
+						"text" : "To do"
+					},
+					"german" : {
+						"icon" : "none",
+						"text" : "To do"
+					}
+				}}
+			]
+		}
+}
+}
